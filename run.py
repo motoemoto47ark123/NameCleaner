@@ -1,6 +1,6 @@
 import os
 # this python program will rename all files in the dir not just one
-path = "replace this with the dir of the files"
+path = r"replace this with the dir of the files"
 for filename in os.listdir(path):
     original_name, ext = os.path.splitext(filename)
     if "Copy of " in original_name:
